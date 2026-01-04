@@ -1,0 +1,29 @@
+#contact {
+  padding: 6rem 2rem;
+  background-color: #f9f9fb;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #222;
+  font-weight: 700;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: #2575fc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #1a5ce0;
+}

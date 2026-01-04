@@ -1,0 +1,133 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #1e1e2f 0%, #2e2e3f 100%);
+  color: #ffffff;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #2575fc, #6c63ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  color: #dcdcdc;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #2575fc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(37, 117, 252, 0.5);
+  background-color: #1a5ce0;
+}
+
+.hero-button.secondary {
+  background-color: transparent;
+  border: 2px solid #2575fc;
+  color: #2575fc;
+}
+
+.hero-button.secondary:hover {
+  background-color: #2575fc;
+  color: white;
+  transform: translateY(-5px) scale(1.05) rotate(-1deg);
+  box-shadow: 0 10px 20px rgba(37, 117, 252, 0.5);
+}
+
+/* Floating shapes */
+.floating-shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: float 8s ease-in-out infinite alternate;
+}
+
+.shape1 {
+  width: 180px;
+  height: 180px;
+  background-color: #2575fc;
+  top: 15%;
+  left: 10%;
+}
+
+.shape2 {
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  bottom: 20%;
+  right: 15%;
+}
+
+.shape3 {
+  width: 100px;
+  height: 100px;
+  background-color: #2575fc;
+  top: 50%;
+  right: 20%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .hero-button {
+    padding: 0.5rem 1rem;
+  }
+}

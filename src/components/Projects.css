@@ -1,0 +1,245 @@
+/* ===============================
+   Projects Section
+   =============================== */
+
+#projects {
+  padding: 6rem 2rem;
+  background-color: #f9f9fb;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* ===============================
+   Grid Layout
+   =============================== */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+/* ===============================
+   Card
+   =============================== */
+
+.project-card {
+  background: linear-gradient(145deg, #ffffff, #f1f1f6);
+  border-radius: 18px;
+  padding: 1.2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  height: 100%; /* stretch card to match tallest in row */
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* ===============================
+   Project Image (Base)
+   =============================== */
+
+.project-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+}
+
+/* ===============================
+   Web Projects
+   =============================== */
+
+.project-image.web {
+  height: 220px;
+}
+
+.project-image.web img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===============================
+   Mobile App Projects
+   =============================== */
+
+.project-image.mobile {
+  height: 320px;
+  background-color: #f2f2f7;
+}
+
+.project-image.mobile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ===============================
+   Hover Effect
+   =============================== */
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+  transition: transform 0.35s ease;
+}
+
+/* ===============================
+   Content Area (Text + Tech + Button)
+   =============================== */
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* expands content area for uniform card height */
+}
+
+/* ===============================
+   Type Label
+   =============================== */
+
+.project-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #2575fc;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+/* ===============================
+   Title and Description
+   =============================== */
+
+.project-card h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(90deg, #2575fc, #6c63ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tech-badges {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem; /* spacing between badges */
+  flex-grow: 0; /* badges keep fixed height but don't stretch */
+}
+
+.tech-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px; /* uniform height */
+  padding: 0 0.8rem; /* horizontal padding */
+  background-color: #e6e6f5;
+  color: #333;
+  border-radius: 14px;
+  font-size: 0.8rem;
+  white-space: nowrap; /* prevent wrapping */
+  transition: 0.3s;
+}
+
+.tech-badge:hover {
+  background-color: #2575fc;
+  color: #fff;
+  cursor: default;
+}
+
+/* ===============================
+   Button
+   =============================== */
+
+.project-card a {
+  margin-top: auto; /* push button to bottom */
+  align-self: center;
+  padding: 0.55rem 1.4rem;
+  background-color: #2575fc;
+  color: #fff;
+  border-radius: 22px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #1a5ce0;
+  transform: scale(1.05);
+}
+
+/* ===============================
+   Mobile Responsive
+   =============================== */
+
+@media (max-width: 480px) {
+  .project-image.web {
+    height: 180px;
+  }
+
+  .project-image.mobile {
+    height: 260px;
+  }
+
+  #projects h2 {
+    font-size: 2rem;
+  }
+}
+
+/* ===============================
+   Filter Buttons
+   =============================== */
+
+.project-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #e6e6f5;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #2575fc;
+  color: #fff;
+}
+
+.filter-btn.active {
+  background-color: #2575fc;
+  color: #fff;
+}
