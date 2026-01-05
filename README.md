@@ -1,6 +1,6 @@
 # Rim Baradie Portfolio
 
-![Portfolio Screenshot](./assets/portfolio.png)
+![Portfolio Screenshot](https://github.com/rimbaradie/portfolio/blob/47238d215d9c62efa9bce5d9a286706383e15da0/public/assets/portfolio.png?raw=true)
 
 ---
 
@@ -41,16 +41,20 @@ The portfolio is fully responsive, built with **React**, and features smooth ani
 ## Screenshots
 
 ** About Section:**  
-![About](./assets/about.png)
+![About](https://github.com/rimbaradie/portfolio/blob/d8da947b97050de08dd642e1eb1f13de630bb6a9/public/assets/about.png?raw=true)
+
 
 **Projects Section:**  
-![Projects](./assets/projects.png)
+![Projects](https://github.com/rimbaradie/portfolio/blob/d8da947b97050de08dd642e1eb1f13de630bb6a9/public/assets/projects.png?raw=true)
+
 
 **Skills Section**  
-![Skills](./assets/skills.png)
+![Skills](https://github.com/rimbaradie/portfolio/blob/d8da947b97050de08dd642e1eb1f13de630bb6a9/public/assets/skills.png?raw=true)
+
 
 **Contact Section:**  
-![ Contact](./assets/contact.png)
+![Contact](https://github.com/rimbaradie/portfolio/blob/d8da947b97050de08dd642e1eb1f13de630bb6a9/public/assets/contact.png?raw=true)
+
 
 ---
 
