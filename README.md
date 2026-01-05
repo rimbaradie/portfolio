@@ -1,6 +1,6 @@
 # Rim Baradie Portfolio
 
-![Portfolio Screenshot](./assets/portfolio.png)
+![Portfolio Screenshot](https://github.com/rimbaradie/portfolio/blob/47238d215d9c62efa9bce5d9a286706383e15da0/public/assets/portfolio.png?raw=true)
 
 ---
 
