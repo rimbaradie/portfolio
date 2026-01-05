@@ -34,7 +34,7 @@ function Hero() {
             View Projects
           </a>
           <a
-            href="/assets/Rim_Baradie_Junior_Frontend_Developer_CV.pdf"
+            href="assets/Rim_Baradie_Junior_Frontend_Developer_CV.pdf"
             className="hero-button secondary"
             target="_blank"
             rel="noopener noreferrer"

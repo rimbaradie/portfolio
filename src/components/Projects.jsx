@@ -8,7 +8,7 @@ const projects = [
     title: "React Native Weather App",
     description:
       "Mobile weather app with real-time location-based forecasts and 7-day outlook.",
-    image: "/assets/react-native-weather.jpeg",
+    image: "assets/react-native-weather.jpeg",
     link: "https://github.com/rimbaradie/react-native-weather",
     type: "mobile",
     tech: [
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "React Native To-Do List",
     description: "Mobile To-Do List app storing tasks locally for persistence.",
-    image: "/assets/react-native-todo.jpeg",
+    image: "assets/react-native-todo.jpeg",
     link: "https://github.com/rimbaradie/react-native-todolist",
     type: "mobile",
     tech: ["React Native", "JavaScript", "Expo", "AsyncStorage"],
@@ -31,7 +31,7 @@ const projects = [
     title: "React Native Temperature Converter",
     description:
       "Converts temperatures between Celsius and Fahrenheit with a clean interface.",
-    image: "/assets/react-native-temp.jpeg",
+    image: "assets/react-native-temp.jpeg",
     link: "https://github.com/rimbaradie/react-native-temperature-converter-app",
     type: "mobile",
     tech: ["React Native", "JavaScript", "Expo"],
@@ -40,7 +40,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Modern responsive portfolio built with React showcasing my projects and skills.",
-    image: "/assets/portfolio.png",
+    image: "assets/portfolio.png",
     link: "https://rimbaradie.github.io/portfolio/",
     type: "web",
     tech: ["React", "CSS", "JavaScript"],
@@ -49,7 +49,7 @@ const projects = [
     title: "React Poster App",
     description:
       "Web app where users can add posts displayed in a dynamic list.",
-    image: "/assets/reactposter.jpeg",
+    image: "assets/reactposter.jpeg",
     link: "https://github.com/rimbaradie/ReactPoster",
     type: "web",
     tech: ["React", "JavaScript", "CSS"],
@@ -58,7 +58,7 @@ const projects = [
     title: "React Investment Calculator",
     description:
       "Web app to calculate investment growth over time with year-by-year breakdown.",
-    image: "/assets/investment-calculator.png",
+    image: "assets/investment-calculator.png",
     link: "https://github.com/rimbaradie/InvestmentCalulator",
     type: "web",
     tech: ["React", "JavaScript", "CSS", "React Hooks"],
@@ -68,7 +68,7 @@ const projects = [
     title: "Makeup Detection System",
     description:
       "Web app using Face++ API to analyze photos and determine skin type for personalized makeup suggestions.",
-    image: "/assets/makeup-detection.jpeg",
+    image: "assets/makeup-detection.jpeg",
     link: "https://github.com/rimbaradie/makeup-detection-system",
     type: "web",
     tech: [
